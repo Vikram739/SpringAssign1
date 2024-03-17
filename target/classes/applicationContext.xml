@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+                           http://www.springframework.org/schema/beans/spring-beans-4.0.xsd">
+
+    <bean id="car1" class="com.mortal.springCar.Car">
+        <!-- You can add property definitions or constructor arguments here -->
+        <property name="name" value="Nexon" />
+        <property name="color" value="Black" />
+        <property name="fuelType" value="diesel" />
+        <property name="milage" value="25.2" />
+    </bean>
+
+    <bean id="car2" class="com.mortal.springCar.Car">
+        <!-- You can add property definitions or constructor arguments here -->
+        <property name="name" value="Audi"/>
+        <property name="color" value="MajesticBlue" />
+        <property name="fuelType" value="diesel" />
+        <property name="milage" value="17.2" />
+    </bean>
+
+</beans>
